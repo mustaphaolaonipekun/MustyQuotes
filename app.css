@@ -1,0 +1,99 @@
+:root {
+  --blue: rgba(26, 145, 240, 1);
+  --black: #555;
+  --white: #eee;
+}
+* {
+  padding: 0;
+  outline: none;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+html {
+  font-size: 32.5%;
+}
+body {
+  background-image: url(bg.png);
+  background-position: cover cover;
+}
+main {
+  margin: 10px;
+  padding: 2rem 9%;
+  background-image: url(bg.png);
+  text-align: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+main h2 {
+  font-size: 30px;
+  color: var(--blue);
+  padding: 3px;
+  margin: 3px;
+}
+main h3 {
+  font-size: 20px;
+  color: var(--blue);
+  padding: 3px;
+  margin: 3px;
+}
+main h4 {
+  font-size: 15px;
+  color: var(--black);
+  padding: 4px;
+  margin: 5px;
+}
+main h5 {
+  font-size: 17px;
+  color: var(--black);
+  padding: 2px;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 3px;
+  margin-top: 5px;
+}
+main i {
+  font-size: 25px;
+  color: var(--white);
+  padding: 3px;
+  margin: 3px;
+}
+main p {
+  font-size: 15px;
+  color: var(--black);
+  padding: 3px;
+  margin: 3px;
+}
+
+.loader {
+  display: none;
+}
+header {
+  margin: 3px;
+  padding: 3px;
+}
+.sample {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+}
+#others {
+  padding: 2px;
+  border-radius: 4px;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  color: var(--white);
+  margin: 5px;
+  cursor: pointer;
+}
+#others:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+section {
+  margin-top: 10px;
+  padding: 3px;
+  margin: 5px;
+}
+section .quotes {
+  margin: 3px;
+}
